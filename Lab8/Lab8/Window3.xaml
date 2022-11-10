@@ -1,0 +1,18 @@
+﻿<Window x:Class="Lab8.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab8"
+        mc:Ignorable="d"
+        Title="Window3" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="label" Content="Поезд" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="48"/>
+        <Button x:Name="Luxe" Content="Люкс" HorizontalAlignment="Left" Margin="72,117,0,0" VerticalAlignment="Top" FontSize="24" Height="51" Width="153" Click="Luxe_Click"/>
+        <Button x:Name="Kyp" Content="Купейный" HorizontalAlignment="Left" Margin="72,0,0,0" VerticalAlignment="Center" FontSize="24" Width="153" Height="51" RenderTransformOrigin="0.493,0.586" Click="Kyp_Click"/>
+        <Button x:Name="Plac" Content="Плацкартный" HorizontalAlignment="Left" Margin="72,263,0,0" VerticalAlignment="Top" FontSize="24" Height="51" Click="Plac_Click"/>
+        <Button x:Name="Obz" Content="Общий" HorizontalAlignment="Left" Margin="72,335,0,0" VerticalAlignment="Top" FontSize="24" Width="153" Height="53" Click="Obz_Click"/>
+        <Label x:Name="Resault" Content="" HorizontalAlignment="Left" Margin="268,126,0,0" VerticalAlignment="Top" FontSize="24" Width="486" Height="262"/>
+
+    </Grid>
+</Window>
